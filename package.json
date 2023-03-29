@@ -1,8 +1,8 @@
 {
-  "name": "@honeycombio/opentelemetry-node",
+  "name": "johnny-comb-opentelemetry-node",
   "version": "0.4.0",
-  "description": "Honeycomb OpenTelemetry Distro for Node",
-  "author": "Honeycomb <support@honeycomb.io> (https://www.honeycomb.io/)",
+  "description": "Honeycomb OpenTelemetry Distro for Node except you can use your own sampler",
+  "author": "???",
   "license": "Apache-2.0",
   "main": "./dist/src/index.js",
   "files": [
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/honeycombio/honeycomb-opentelemetry-js.git"
+    "url": "git+https://github.com/jwhiles/honeycomb-opentelemetry-js.git"
   },
   "keywords": [
     "honeycomb",
@@ -41,9 +41,9 @@
     "node": ">=14"
   },
   "bugs": {
-    "url": "https://github.com/honeycombio/honeycomb-opentelemetry-js/issues"
+    "url": "https://github.com/jwhiles/honeycomb-opentelemetry-js/issues"
   },
-  "homepage": "https://github.com/honeycombio/honeycomb-opentelemetry-js#readme",
+  "homepage": "https://github.com/jwhiles/honeycomb-opentelemetry-js#readme",
   "devDependencies": {
     "@types/jest": "^29.1.2",
     "@typescript-eslint/eslint-plugin": "^5.43.0",

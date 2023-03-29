@@ -21,7 +21,7 @@ export class HoneycombSDK extends NodeSDK {
       resource: configureHoneycombResource(opts),
       metricReader: getHoneycombMetricReader(opts),
       spanProcessor: configureBatchWithBaggageSpanProcessor(opts),
-      sampler: configureDeterministicSampler(opts?.sampleRate),
+      sampler: opts?.sampler ?? configureDeterministicSampler(opts?.sampleRate),
     });
 
     if (opts.debug) {
